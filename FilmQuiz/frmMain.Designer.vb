@@ -51,7 +51,7 @@ Partial Class frmMain
         Me.Label1.Location = New System.Drawing.Point(52, 20)
         Me.Label1.Margin = New System.Windows.Forms.Padding(7, 0, 7, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(352, 73)
+        Me.Label1.Size = New System.Drawing.Size(435, 91)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Movie Quiz"
         '
@@ -62,7 +62,7 @@ Partial Class frmMain
         Me.Label2.Location = New System.Drawing.Point(100, 1402)
         Me.Label2.Margin = New System.Windows.Forms.Padding(7, 0, 7, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(184, 33)
+        Me.Label2.Size = New System.Drawing.Size(233, 42)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Player Name"
         '
@@ -92,25 +92,25 @@ Partial Class frmMain
         Me.TextBox1.Location = New System.Drawing.Point(502, 1406)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(468, 31)
+        Me.TextBox1.Size = New System.Drawing.Size(468, 37)
         Me.TextBox1.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(12, 579)
+        Me.Label3.Location = New System.Drawing.Point(-9, 583)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(170, 31)
+        Me.Label3.Size = New System.Drawing.Size(214, 39)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Player Name"
         '
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnQuit.Location = New System.Drawing.Point(652, 489)
+        Me.btnQuit.Location = New System.Drawing.Point(652, 472)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(178, 72)
+        Me.btnQuit.Size = New System.Drawing.Size(259, 98)
         Me.btnQuit.TabIndex = 6
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -118,9 +118,9 @@ Partial Class frmMain
         'btnStart
         '
         Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnStart.Location = New System.Drawing.Point(652, 593)
+        Me.btnStart.Location = New System.Drawing.Point(652, 606)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(178, 77)
+        Me.btnStart.Size = New System.Drawing.Size(259, 102)
         Me.btnStart.TabIndex = 7
         Me.btnStart.Text = "Start"
         Me.btnStart.UseVisualStyleBackColor = True
@@ -130,7 +130,7 @@ Partial Class frmMain
         Me.txtPlayerName.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPlayerName.Location = New System.Drawing.Point(197, 576)
         Me.txtPlayerName.Name = "txtPlayerName"
-        Me.txtPlayerName.Size = New System.Drawing.Size(276, 38)
+        Me.txtPlayerName.Size = New System.Drawing.Size(276, 46)
         Me.txtPlayerName.TabIndex = 8
         '
         'PictureBox1
@@ -146,9 +146,9 @@ Partial Class frmMain
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(603, 42)
+        Me.PictureBox2.Location = New System.Drawing.Point(759, 12)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(215, 154)
+        Me.PictureBox2.Size = New System.Drawing.Size(215, 290)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 10
         Me.PictureBox2.TabStop = False
@@ -185,9 +185,9 @@ Partial Class frmMain
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(15.0!, 30.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(853, 690)
+        Me.ClientSize = New System.Drawing.Size(970, 747)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
