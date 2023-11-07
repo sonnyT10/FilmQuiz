@@ -41,7 +41,7 @@ Partial Class frmQuestion1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(423, 11)
+        Me.Label1.Location = New System.Drawing.Point(67, 9)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(990, 54)
@@ -55,9 +55,9 @@ Partial Class frmQuestion1
         Me.GroupBox1.Controls.Add(Me.btnAnswer4)
         Me.GroupBox1.Controls.Add(Me.btnAnswer1)
         Me.GroupBox1.Location = New System.Drawing.Point(468, 129)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(480, 634)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
@@ -68,7 +68,7 @@ Partial Class frmQuestion1
         Me.btnAnswer3.AutoSize = True
         Me.btnAnswer3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer3.Location = New System.Drawing.Point(11, 212)
-        Me.btnAnswer3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAnswer3.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAnswer3.Name = "btnAnswer3"
         Me.btnAnswer3.Size = New System.Drawing.Size(129, 50)
         Me.btnAnswer3.TabIndex = 3
@@ -81,7 +81,7 @@ Partial Class frmQuestion1
         Me.btnAnswer2.AutoSize = True
         Me.btnAnswer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer2.Location = New System.Drawing.Point(9, 126)
-        Me.btnAnswer2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAnswer2.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAnswer2.Name = "btnAnswer2"
         Me.btnAnswer2.Size = New System.Drawing.Size(129, 50)
         Me.btnAnswer2.TabIndex = 2
@@ -94,7 +94,7 @@ Partial Class frmQuestion1
         Me.btnAnswer4.AutoSize = True
         Me.btnAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer4.Location = New System.Drawing.Point(8, 294)
-        Me.btnAnswer4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAnswer4.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAnswer4.Name = "btnAnswer4"
         Me.btnAnswer4.Size = New System.Drawing.Size(129, 50)
         Me.btnAnswer4.TabIndex = 1
@@ -107,7 +107,7 @@ Partial Class frmQuestion1
         Me.btnAnswer1.AutoSize = True
         Me.btnAnswer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer1.Location = New System.Drawing.Point(8, 39)
-        Me.btnAnswer1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAnswer1.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAnswer1.Name = "btnAnswer1"
         Me.btnAnswer1.Size = New System.Drawing.Size(129, 50)
         Me.btnAnswer1.TabIndex = 0
@@ -118,9 +118,9 @@ Partial Class frmQuestion1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(955, 188)
+        Me.PictureBox1.Location = New System.Drawing.Point(955, 190)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(601, 436)
+        Me.PictureBox1.Size = New System.Drawing.Size(354, 295)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
@@ -138,7 +138,7 @@ Partial Class frmQuestion1
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNext.Location = New System.Drawing.Point(1249, 673)
+        Me.btnNext.Location = New System.Drawing.Point(987, 654)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(187, 73)
         Me.btnNext.TabIndex = 4
@@ -149,13 +149,13 @@ Partial Class frmQuestion1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1555, 814)
+        Me.ClientSize = New System.Drawing.Size(1321, 820)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmQuestion1"
         Me.Text = "frmQuestion1"
         Me.GroupBox1.ResumeLayout(False)

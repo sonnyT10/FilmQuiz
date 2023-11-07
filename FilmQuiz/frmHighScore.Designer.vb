@@ -23,7 +23,7 @@ Partial Class frmHighScore
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lstHighScore = New System.Windows.Forms.ListBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblMessage = New System.Windows.Forms.Label()
         Me.btnAgain = New System.Windows.Forms.Button()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -38,14 +38,14 @@ Partial Class frmHighScore
         Me.lstHighScore.Size = New System.Drawing.Size(422, 364)
         Me.lstHighScore.TabIndex = 0
         '
-        'Label1
+        'lblMessage
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(247, 8)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(305, 84)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label1"
+        Me.lblMessage.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMessage.Location = New System.Drawing.Point(167, 5)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(611, 84)
+        Me.lblMessage.TabIndex = 1
+        Me.lblMessage.Text = "Label1"
         '
         'btnAgain
         '
@@ -74,7 +74,7 @@ Partial Class frmHighScore
         Me.ClientSize = New System.Drawing.Size(990, 718)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnAgain)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.lstHighScore)
         Me.Name = "frmHighScore"
         Me.Text = "frmHighScore"
@@ -83,7 +83,7 @@ Partial Class frmHighScore
     End Sub
 
     Friend WithEvents lstHighScore As ListBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblMessage As Label
     Friend WithEvents btnAgain As Button
     Friend WithEvents btnQuit As Button
 End Class
