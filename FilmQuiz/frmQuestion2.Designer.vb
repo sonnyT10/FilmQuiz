@@ -22,6 +22,7 @@ Partial Class frmQuestion2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmQuestion2))
         Me.btnNext = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -31,6 +32,8 @@ Partial Class frmQuestion2
         Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ProgressBarQ2 = New System.Windows.Forms.ProgressBar()
+        Me.tmrQuestion2 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -125,11 +128,23 @@ Partial Class frmQuestion2
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
+        'ProgressBarQ2
+        '
+        Me.ProgressBarQ2.Location = New System.Drawing.Point(38, 361)
+        Me.ProgressBarQ2.Name = "ProgressBarQ2"
+        Me.ProgressBarQ2.Size = New System.Drawing.Size(275, 22)
+        Me.ProgressBarQ2.TabIndex = 4
+        '
+        'tmrQuestion2
+        '
+        Me.tmrQuestion2.Interval = 1000
+        '
         'frmQuestion2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1118, 612)
+        Me.Controls.Add(Me.ProgressBarQ2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox1)
@@ -151,4 +166,6 @@ Partial Class frmQuestion2
     Friend WithEvents btnAnswer3 As RadioButton
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ProgressBarQ2 As ProgressBar
+    Friend WithEvents tmrQuestion2 As Timer
 End Class
